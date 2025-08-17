@@ -1,0 +1,27 @@
+{
+    "id": "84314e44-592e-4640-8be9-90f7752cee0f",
+    "pipeline_type": "WORKSPACE",
+    "clusters": [
+        {
+            "label": "default",
+            "node_type_id": "n2-standard-4",
+            "num_workers": 1
+        }
+    ],
+    "development": true,
+    "continuous": false,
+    "channel": "CURRENT",
+    "photon": false,
+    "libraries": [
+        {
+            "notebook": {
+                "path": "/Users/umangmaheshwari87@gmail.com/healthcare_dlt_pipeline/healthcare_dlt_processing"
+            }
+        }
+    ],
+    "name": "healthcare_dlt_pipeline",
+    "serverless": false,
+    "edition": "ADVANCED",
+    "catalog": "incremental_load",
+    "schema": "default"
+}
